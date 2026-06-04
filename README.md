@@ -32,6 +32,8 @@ This repository currently contains my DSA practice starting with arrays and will
 ```bash
 Arrays/
 Strings/
+bitManipulation/
+Recursion/
 ```
 
 ## 📈 Progress
