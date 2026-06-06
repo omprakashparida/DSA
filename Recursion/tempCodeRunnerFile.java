@@ -1,2 +1,1 @@
-(10);
-        print1ton(5);
+occurrencesOfAKey(arr, idx+1, key);
