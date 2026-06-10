@@ -34,6 +34,7 @@ Arrays/
 Strings/
 bitManipulation/
 Recursion/
+DivideAndConquer/
 ```
 
 ## 📈 Progress
