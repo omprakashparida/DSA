@@ -35,6 +35,7 @@ Strings/
 bitManipulation/
 Recursion/
 DivideAndConquer/
+Backtracking/
 ```
 
 ## 📈 Progress
