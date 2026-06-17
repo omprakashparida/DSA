@@ -12,7 +12,6 @@ public class linkedList {
         ll.print();
         ll.addLast(2);
         ll.print();
-
         // ll.removeLast();
         System.out.println(ll.isPalindrome());
         ll.print();
