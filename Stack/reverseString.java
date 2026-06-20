@@ -9,7 +9,7 @@ public class reverseString {
             idx++;
 
         }
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sb = new StringBuilder();
         while (!s.isEmpty()) {
             char curr = s.pop();
             sb.append(curr);
