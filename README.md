@@ -36,6 +36,9 @@ bitManipulation/
 Recursion/
 DivideAndConquer/
 Backtracking/
+LinkedList/
+Stack/
+Queue/
 ```
 
 ## 📈 Progress
