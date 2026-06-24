@@ -39,6 +39,7 @@ Backtracking/
 LinkedList/
 Stack/
 Queue/
+Trees/
 ```
 
 ## 📈 Progress
