@@ -1,3 +1,4 @@
+import java.util.*;
 public class treePreorder {
     public static class Node {
         int data;
@@ -52,13 +53,41 @@ public class treePreorder {
             postOrder(root.right);
             System.out.print(root.data + " ");
         }
+
+        public static void levelOrder(Node root) {
+            if (root == null) {
+                return;
+            }
+            Queue<Node> q = new LinkedList<>();
+            q.add(root);
+            q.add(null);
+            while (!q.isEmpty()) {
+                Node currData = q.remove();
+                if (currData == null) {
+                    System.out.println();
+                    if (q.isEmpty()) {
+                        break;
+                    } else {
+                        q.add(null);
+                    }
+                } else {
+                    System.out.print(currData.data + " ");
+                    if (currData.left != null) {
+                        q.add(currData.left);
+                    }
+                    if (currData.right != null) {
+                        q.add(currData.right);
+                    }
+                }
+            }
+        }
     }
 
     public static void main(String[] args) {
         int nodes[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
         BinaryTree tree = new BinaryTree();
         Node root = tree.BuildTree(nodes);
-        tree.postOrder(root);
+        tree.levelOrder(root);
         // System.out.println(root.data);
     }
 }
