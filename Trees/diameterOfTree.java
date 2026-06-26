@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class diameterOfTree {
     static class Node {
         int data;
@@ -20,7 +21,8 @@ public class diameterOfTree {
         int rightHeight = height(root.right);
         return Math.max(leftHeight, rightHeight) + 1;
     }
-    public static int diameterOfTree(Node root){
+
+    public static int diameterOfTree(Node root) {
         if (root == null) {
             return 0;
         }
@@ -28,7 +30,7 @@ public class diameterOfTree {
         int rightDiameter = diameterOfTree(root.right);
         int leftHeight = height(root.left);
         int rightHeight = height(root.right);
-        int selfDiameter = leftHeight+rightHeight+1;
+        int selfDiameter = leftHeight + rightHeight + 1;
         int max = Math.max(rightDiameter, leftDiameter);
         return Math.max(max, selfDiameter);
     }
