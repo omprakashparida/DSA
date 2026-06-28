@@ -34,7 +34,5 @@ public class searchInBst {
     System.out.println(search(root, 1));
 
 
-
-
    } 
 }
