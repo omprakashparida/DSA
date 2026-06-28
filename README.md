@@ -40,6 +40,7 @@ LinkedList/
 Stack/
 Queue/
 Trees/
+BST/
 ```
 
 ## 📈 Progress
