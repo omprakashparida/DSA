@@ -32,7 +32,6 @@ public class spiralMatrix {
             // for printing top 
             for (int i = startcol; i <= endcol; i++) {
                 System.out.print(matrix[startrow][i] + " ");
-                ;
             }
             // for pritning right
             for (int j = startrow + 1; j <= endrow; j++) {
