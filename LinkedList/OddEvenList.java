@@ -31,7 +31,6 @@ public class OddEvenList {
         }
 
         odd.next = evenHead;
-
         return head;
     }
 
