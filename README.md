@@ -41,6 +41,7 @@ Stack/
 Queue/
 Trees/
 BST/
+Hashing/
 
 ```
 
