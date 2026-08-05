@@ -82,7 +82,6 @@ public class RotateLinkedList{
     
         int k = 2;
         head = solution.rotateRight(head, k);
-    
         System.out.print("Rotated List: ");
         printList(head);
     }
