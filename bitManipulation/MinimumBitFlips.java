@@ -10,7 +10,7 @@ public class MinimumBitFlips {
         int goal = 7;
 
         int result = minBitFlips(start, goal);
-
+        
         System.out.println("Start: " + start);
         System.out.println("Goal: " + goal);
         System.out.println("Minimum bit flips: " + result);
