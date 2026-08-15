@@ -42,6 +42,7 @@ public class SubsetsWithDuplicates {
         List<List<Integer>> result = subsetsWithDup(nums);
 
         System.out.println(result);
+        
     }
 
 }
