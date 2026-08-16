@@ -25,7 +25,6 @@ public class SubsetsWithDuplicates {
             if (i > start && nums[i] == nums[i - 1]) {
                 continue;
             }
-
             subset.add(nums[i]);
 
             backtrack(nums, i + 1, subset, result);
