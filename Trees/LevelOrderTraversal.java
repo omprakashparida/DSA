@@ -18,7 +18,7 @@ public class LevelOrderTraversal {
         if (root == null) {
             return;
         }
-
+        
         Queue<Node> q = new LinkedList<>();
         q.add(root);
         q.add(null);
