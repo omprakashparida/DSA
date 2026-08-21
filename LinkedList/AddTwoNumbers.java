@@ -75,7 +75,6 @@ public class AddTwoNumbers {
     }
 
     public static void main(String[] args) {
-
         int[] arr1 = {2, 4, 3};
         int[] arr2 = {5, 6, 4};
 
